@@ -1,0 +1,7 @@
+ktor:
+  deployment:
+    port: 9292
+    watch: [ com.example ]
+  application:
+    modules:
+      - com.example.ApplicationKt.module
